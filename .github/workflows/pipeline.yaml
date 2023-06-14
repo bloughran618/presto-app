@@ -22,7 +22,7 @@ env:
   # testing "sam package" and "sam deploy" commands.
   # TESTING_IMAGE_REPOSITORY = '0123456789.dkr.ecr.region.amazonaws.com/repository-name'
   TESTING_REGION: us-east-1
-  PROD_STACK_NAME: sam-app-prod
+  PROD_STACK_NAME: presto-app-prod
   PROD_PIPELINE_EXECUTION_ROLE: arn:aws:iam::496279898686:role/aws-sam-cli-managed-presto-a-PipelineExecutionRole-1GFJILKZAHM0O
   PROD_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::496279898686:role/aws-sam-cli-managed-prest-CloudFormationExecutionR-17XCCMGKQQ2L7
   PROD_ARTIFACTS_BUCKET: aws-sam-cli-managed-presto-app-pr-artifactsbucket-1lj17j77jdlu0
